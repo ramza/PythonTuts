@@ -47,7 +47,7 @@ class Character:
 
 def RollStat():
     dice = []
-    # roll 4 six sided dice.
+    # roll 4 six-sided dice.
     for i in range(4):
         dice.append(random.randrange(1,7))
 
@@ -68,7 +68,7 @@ def RollStat():
 # The main part of our program. This will handle all the random creation
 # necessary for creating the character.
 def CreateNewCharacter():
-    new_character = Character();
+    new_character = Character()
 
     races = []
     classes = []
